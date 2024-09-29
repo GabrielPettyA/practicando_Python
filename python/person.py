@@ -1,6 +1,7 @@
 ### CLASS PERSON ###
 
 import os
+import validacion
 
 
 class Person:
@@ -42,7 +43,6 @@ print("\n ---------------------- Proceso Finalizado ... ---------------------- \
 
 os.system('cls')
 
-import python.validacion as validacion
 def nuevo():
   my_dict = dict(primero='Gabriel', segundo='Alejandro', tercero='Pettinari', cuarto='50 años')
   print(f'''
@@ -119,8 +119,7 @@ def nuevo():
 nuevo()
   
 
-
-
+## ================================================================ ##
 
   
   
