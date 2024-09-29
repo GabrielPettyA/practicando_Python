@@ -6,22 +6,23 @@
 
 # Generado con Python 3.11
 
-- Se utilizan distintas formas de utilización de 'print'.
+- Se utilizan distintas formas en la implementación de los 'print'.
 - Se implementa también la utilización de funciones para
-    sus posterior llamados.
+    sus posteriores llamados.
 - Se emplea la importación de los archivos requeridos.
 - Se incorpora un archivo de validación para una mejor respuesta.
-    Se validan los ingresos del usuario para una correcta funcionalidad.
+- Se validan los ingresos del usuario para una mejor funcionalidad.
 
 ## IMPORTANTE ##
 
 - Para poder utilizar los datos arrojados en los diversos ejemplos
-    recuerde COMENTAR o BORRAR los códigos 'os.system('cls'),
+    recuerde COMENTAR o BORRAR los códigos 'os.system('cls')',
     puede hacer uso de los mismos pero en ocasiones se encuentran 
-    para limpiar los distintos ejemplos de manera rápida. Vea ust.
-    donde prefiere dejarlo a modo de estética para su muestra.
+    para limpiar los distintos ejemplos de manera rápida en la terminal. 
+    Vea ust. donde prefiere dejarlos a modo de mostrar los ejemplos
+    en su terminal según lo prefiera.
 
 ## ATENCIÓN ##
 
-- Estos ejemplos no son tomados de ejercicios o incorporados de los mismos.
+- Estos ejemplos no son tomados de ejercicios o resuluciones de los mismos.
 - Son solo a modo de práctica personal.
