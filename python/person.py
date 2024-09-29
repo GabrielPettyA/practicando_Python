@@ -42,7 +42,7 @@ print("\n ---------------------- Proceso Finalizado ... ---------------------- \
 
 os.system('cls')
 
-import validacion
+import python.validacion as validacion
 def nuevo():
   my_dict = dict(primero='Gabriel', segundo='Alejandro', tercero='Pettinari', cuarto='50 años')
   print(f'''
