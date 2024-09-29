@@ -12,7 +12,7 @@
 - Se emplea la importación de los archivos requeridos.
 - Se incorpora un archivo de validación para una mejor respuesta.
 - Se validan los ingresos del usuario para una mejor funcionalidad.
-- Para una mayor visual de como interactual con distintos archivos
+- Para una mayor visual de como interactuar con distintos archivos
     y sus funciones, se incorpora 'solicitud_datos.py' y sus nuevos
     requerimientos. En él se emplea la utilización de una lista y la
     función .append para incorporar los datos ingresados por el usuario.
