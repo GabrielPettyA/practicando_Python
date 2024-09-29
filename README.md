@@ -1,7 +1,7 @@
 ## ALGUNAS FORMAS DE UTILIZAR INFORMACIÓN DE UN DICCIONARIO ##
 
 
-- De desea ejemplificar distintas maneras de llamar a las claves
+- Se desea ejemplificar distintas maneras de llamar a las claves
     de un diccionario para que nos brinde la información deseada.
 
 # Generado con Python 3.11
