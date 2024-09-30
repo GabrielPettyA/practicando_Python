@@ -1,9 +1,11 @@
 ### CLASS PERSON ###
 
+# Se importan los módulos requeridos
+
 import os
 import validacion
 
-
+# Inicio de la Clase Person, la misma presenta un constructor con sus respectivos atributos.
 class Person:
   
   def __init__(self, nombre= "Null", edad= "Null", Dni= "Null"):
@@ -11,9 +13,15 @@ class Person:
     self.edad = edad
     self.Dni = Dni
 
+# Se solicita al usuario el ingreso de las cantidades de personas a registrar.
+
 #person = int(input("Cantidad de personas por ingresar: "))
+
+# Contador de personas ingresadas a registrar.
 person = 1
 contar = 0
+
+# Inicio del bucle for para permitir el registro de la cantidad de personas autorizadas.
 for ind in range(person):
   if person :
     
@@ -27,6 +35,7 @@ for ind in range(person):
 
     persona_1 = Person(nombre=nombre, edad=edad, Dni=dni)
 
+# Se imprime el resultado obtenido de los registros.
     print(f''' 
           ================================
           DATE PERSON
@@ -35,7 +44,7 @@ for ind in range(person):
           DNI      : {persona_1.Dni}
           ================================
           ''')
-  
+  #Fin de bucle for.
   
 print("Ingreso ==> ", person, "personas")
 
@@ -43,14 +52,20 @@ print("\n ---------------------- Proceso Finalizado ... ---------------------- \
 
 os.system('cls')
 
+# Inicio de nueva función y el registro mediante el diccionario.
 def nuevo():
   my_dict = dict(primero='Gabriel', segundo='Alejandro', tercero='Pettinari', cuarto='50 años')
+  
+  # Imprimiendo los datos en el diccionario.
+  
   print(f'''
         Datos del Diccionario:
         
         {my_dict}
         '''
         )
+  
+# Otras formas de imprimir la información del diccionario.
 
   print("Buscando datos específicos: ", f'''
         Primer dato con clave primero  - {my_dict['primero']}
@@ -79,17 +94,25 @@ def nuevo():
         '''
         )
 
+
+# Inicio del bucle while para validación de ingreso de opciones.
+
   while True:
+    
+    # Utilización de try para validar los diversos ingresos y capturar los posibles errores.
       try:
         
         ingreso = int(input("\nIngrese opción: "))
         os.system('cls')
         if ingreso <1 or ingreso >4 :
           print("\nERROR: Ingrese Clave entre 1 y 4.")
-          
+    
+    # Se disponen en las opciones el archivo de validación, el llamado nos redirige al mismo para 
+    # poder hacer las validaciones correspondientes.
+    
         if ingreso == 1:
           print("\nClave 1: ", my_dict['primero'])
-          validacion.validar()
+          validacion.validar() ### Llama al archivo previamente importado. ###
           
         if ingreso == 2:
           print("\nClave 2: ", my_dict['segundo'])
@@ -105,7 +128,12 @@ def nuevo():
                     
         else:
           pass                
-          
+    
+    
+    # Captura del ValueError para poder determinar una acción a seguir.
+    # Sirve para capturar el accionar del usuario al apretar 'ENTER' sin
+    # haber ingresado dato previo.
+    
       except ValueError:
         os.system('cls')
         
@@ -117,7 +145,8 @@ def nuevo():
 
 
 nuevo()
-  
+
+# Fin de funcion.
 
 ## ================================================================ ##
 
